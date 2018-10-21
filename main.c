@@ -10,6 +10,7 @@ int main(void) {
       printf("You entered wrong number, try again...\n");
       continue;
     };
+    if (menu_item == '5') break;
     switch (menu_item) {	//do what it says
       case '1': ;	//Add
         break;
@@ -22,4 +23,4 @@ int main(void) {
     };
   };
   return 0;
-};
+}
