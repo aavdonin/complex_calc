@@ -25,5 +25,5 @@ div.o: div.c
 	gcc -c div.c
 
 clean:
-	rm -rf *.o ccalc
+	rm -rf *.o *.a ccalc
 
